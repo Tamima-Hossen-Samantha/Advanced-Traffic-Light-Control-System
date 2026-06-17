@@ -237,17 +237,6 @@ You can hit **Export Stats** at any time to download a CSV with the full log —
 - Machine learning trained on real traffic patterns
 - A side-by-side mode to run two algorithms simultaneously and compare live
 
----
-
-## 👥 Authors
-
-This project was built by three people as part of our university coursework applying OS scheduling theory to a real-world simulation.
-
-**Author 1** — [GitHub](https://github.com/USERNAME1) · [LinkedIn](https://linkedin.com/in/USERNAME1)  
-**Author 2** — [GitHub](https://github.com/USERNAME2) · [LinkedIn](https://linkedin.com/in/USERNAME2)  
-**Author 3** — [GitHub](https://github.com/USERNAME3) · [LinkedIn](https://linkedin.com/in/USERNAME3)
-
----
 
 <div align="center">
 
