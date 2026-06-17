@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🚦 Advanced Traffic Light Control System
-### v2.0
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-FF6F00?style=for-the-badge&logo=python&logoColor=white)
@@ -11,7 +11,7 @@
 We built this to answer a simple question — *what if you could actually see CPU scheduling algorithms working in the real world?*  
 This simulator maps every classic OS scheduling concept onto a live 4-way traffic intersection, so you can watch them run, compare them, and actually understand the difference.
 
-**[⬇️ Download & Run](#-download--run) • [Screenshots](#-screenshots) • [How It Works](#-how-it-works) • [Algorithms](#-the-4-algorithms) • [OS Concepts](#-where-os-concepts-show-up)**
+**[⬇️ Download & Run](#️-download--run) • [Screenshots](#-screenshots) • [How It Works](#-how-it-works) • [Algorithms](#-the-4-algorithms) • [OS Concepts](#-where-os-concepts-show-up)**
 
 </div>
 
