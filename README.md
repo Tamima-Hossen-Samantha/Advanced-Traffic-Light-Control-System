@@ -43,11 +43,9 @@ To check if you already have it:
 python --version
 ```
 
-**Step 3 — Install the one dependency**
-
-Open a terminal/command prompt inside the extracted folder and run:
-```bash
-pip install -r requirements.txt
+**Step 3 — No extra installs needed!**
+This project uses only Python's built-in libraries. 
+Just make sure you have Python 3.10+ installed
 ```
 
 > Tkinter comes pre-installed with Python on Windows and macOS. On Linux run: `sudo apt-get install python3-tk`
