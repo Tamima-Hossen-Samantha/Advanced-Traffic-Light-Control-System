@@ -90,41 +90,41 @@ When you open the app, everything is on one screen. Left panel is your controls,
 ```
 traffic-light-control-system/
 │
-├── app.py                          # Entry point — run this to start
+├── app.py                          
 │
-├── core/                           # The simulation engine
-│   ├── constants.py                # All configurable values in one place
-│   ├── sim.py                      # Main loop, vehicle spawning, cycle management
-│   └── state.py                    # Holds the live state of the whole simulation
+├── core/                          
+│   ├── constants.py               
+│   ├── sim.py                      
+│   └── state.py                   
 │
-├── algorithms/                     # Everything related to light control logic
-│   ├── controller.py               # Picks and runs whichever algorithm is selected
+├── algorithms/                    
+│   ├── controller.py               
 │   └── strategies/
-│       ├── base.py                 # Shared base class all algorithms extend
-│       ├── fixed_time.py           # Fixed Time — equal green for everyone
-│       ├── priority.py             # Priority — longest queue goes first
-│       ├── adaptive.py             # Adaptive — scores each lane dynamically
-│       └── round_robin.py          # Round Robin — strict rotation
+│       ├── base.py                 
+│       ├── fixed_time.py           
+│       ├── priority.py             
+│       ├── adaptive.py           
+│       └── round_robin.py          
 │
 ├── services/
-│   ├── stats.py                    # Calculates throughput, wait time, efficiency
-│   └── exporter.py                 # Exports simulation data to CSV
+│   ├── stats.py                    
+│   └── exporter.py                 
 │
 ├── ui/
-│   ├── window.py                   # Main window, tab layout
-│   ├── intersection_view.py        # The animated intersection canvas
-│   ├── helptext.py                 # User guide tab
+│   ├── window.py                   
+│   ├── intersection_view.py        
+│   ├── helptext.py                 
 │   └── components/
-│       ├── config_panel.py         # Algorithm & settings selectors
-│       ├── control_panel.py        # Start/Stop/Pause/Reset/Add buttons
-│       ├── performance_panel.py    # Analytics dashboard
-│       ├── quick_stats.py          # Live stat cards at a glance
-│       ├── details_log.py          # Full detailed log output
-│       ├── legend.py               # Vehicle type color legend
-│       ├── options.py              # Animation toggle
-│       └── status_bar.py          # Bottom status messages
+│       ├── config_panel.py         
+│       ├── control_panel.py        
+│       ├── performance_panel.py    
+│       ├── quick_stats.py         
+│       ├── details_log.py          
+│       ├── legend.py               
+│       ├── options.py              
+│       └── status_bar.py          
 │
-├── assets/                         # Screenshots for README
+├── assets/                        
 ├── requirements.txt
 └── README.md
 ```
